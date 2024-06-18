@@ -158,3 +158,15 @@ h4{
     bottom: 37%;
     width: 7em;
 }
+.background1{
+    background-image: url(imagens/fase1/vida.png);
+    background-size: cover;
+}
+.background2{
+    background-image: url(imagens/fase2/vida.png);
+    background-size: cover;
+}
+.background3{
+    background-image: url(imagens/fase3/vida.png);
+    background-size: cover;
+}
