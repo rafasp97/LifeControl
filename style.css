@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fundoIndex{
+    background: url(imagens/fundoIndex.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1{
+    background-image: url(imagens/fundo.gif);
+    color: rgb(248, 248, 248);
+    font-family: monospace;
+    font-size: 3em;
+    padding: 0.3em 0.5em;
+    border-radius: 0.3em;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+    margin-bottom: 2em;
+}
+
+button{
+    font-family: monospace;
+    font-size: 1.5em;
+    padding: 0.1em 0.8em;
+    border-radius: 0.3em;
+    width: 10em;
+}
+
+.fase1-background, .fase2-background, .fase3-background{
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+}
+.fase1-background{
+    background: url(imagens/1.jpg);
+    background-size: cover;
+}
+.fase2-background{
+    background: url(imagens/2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.fase3-background{
+    background: url(imagens/3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+h2{
+    background-image: url(imagens/fundo.gif);
+    color: rgb(248, 248, 248);
+    font-family: monospace;
+    font-size: 1.5em;
+    padding: 0.8em 0.5em;
+    border-radius: 0.3em;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+    margin-bottom: 1em;
+    width: 15em;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    background-image: url(imagens/fundo.gif);
+    color: rgb(248, 248, 248);
+    font-family: monospace;
+    font-size: 1.4em;
+    margin: 0.6em;
+    padding: 0.3em 0.5em;
+    border-radius: 0.3em;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+    margin-bottom: 1em;
+    width: 16em;
+    text-align: center;
+}
+
+h4{
+    background: black;
+    color: rgb(248, 248, 248);
+    font-family: monospace;
+    font-size: 1em;
+    padding: 0.3em 0.5em;
+    border-radius: 0.3em;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+}
+.pontos{
+    font-size: 8em;
+    color: white;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+}
+.icon{
+    width: 3.5em;
+}
+.iconvida{
+    width: 6em;
+}
+.vidas{
+    height: auto;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+.vida{
+    width: 3em;
+    height: auto;
+}
+.img{
+    width: 20em;
+    height: auto;
+}
+.mensagem{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    padding: 1em;
+    margin: 150px 15px 0px 15px;
+    background-image: url(imagens/fundo.gif);
+    border-radius: 5px;
+    gap: 1em;
+    border: solid black 1px;
+}
+.mensagem>p{
+    font-size: 1em;
+    font-family: monospace;
+    line-height: 1.2;
+    background-color: white;
+    border-radius: 5px;
+    padding: 0em 1em;
+    display: flex;
+    align-items: center;
+}
+.robo{
+    width: 50px;
+    height: 50px;
+}
+.vitoria{
+    width: 18em;
+}
+.medalha{
+    position: absolute;
+    bottom: 40%;
+    width: 5em;
+}
+.trofeu{
+    position: absolute;
+    bottom: 37%;
+    width: 7em;
+}
